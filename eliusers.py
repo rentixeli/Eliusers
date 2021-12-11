@@ -30,6 +30,8 @@ if args.wordlist:
 				last = last.rstrip("\n")
 				first = first.lower()
 				last = last.lower()
+				print (first)
+				print (last)
 				print (first+last[0])
 				print (first+'.'+last[0])
 				print (first+'.'+last[0:3])
